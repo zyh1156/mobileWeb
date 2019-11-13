@@ -1,7 +1,7 @@
 # mobileweb  
 ## *移动端适配方案*
 
-通过 px-to-vw 的方法实现移动端适配  
+通过 [px-to-viewport][ptv] 的方式实现移动端适配  
 
 ---  
 
@@ -48,6 +48,11 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).  
 
+## 许可
+
+本项目使用 [MIT License](LICENSE).
+
+## 请记住
 
 1. 绝不意气用事  
 2. 绝不漏判任何一件坏事  
@@ -56,4 +61,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 [artifactWeb]: https://playartifact.com/ "playartifact"  
 [artifactIco]: https://steamcdn-a.akamaihd.net/apps/artifact/images/favicon.png "favicon"  
 [config]: ./vue.config.js "vue.config"  
-[mainJs]: ./src/main.js "main.js"
+[mainJs]: ./src/main.js "main.js" 
+[ptv]: https://github.com/evrone/postcss-px-to-viewport "px-to-view"
