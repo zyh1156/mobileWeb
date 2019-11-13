@@ -14,14 +14,16 @@
 > 使用 `axios` 管理Ajax请求  
 >> 在 [main.js][mainJs] 中将其融合到了Vue里，这样就可以全局调用了
 
-> ![artifact][artifactIco]logo偷偷用了 [Artifact][artifactWeb] 官网的ico（未获授权）  
+> ![artifact][artifactIco] logo偷偷用了 [Artifact][artifactWeb] 官网的ico（未获授权）  
 >> ~~这是个好游戏，~~ 只可惜生不逢时
 
 ***
 
-- 在[vue.congfig.js][config] 中配置设计稿宽度  
-+ 看情况可添加 `max-width` 到 `publc/index.html` 的 `body` 中，这样即使在PC端浏览，效果也是极好的  
-* `bootstrap-reboot.css` 中将`line-height` 设为 `1.5` ，在多行文本浏览时，可以提供较好的用户体验，缺点是单行块级文本的高度如果不是常量会发生变化，像素强迫症可以视情况将值设为`1`。
+- 在[vue.congfig.js][config] 中配置设计稿宽度。  
++ 看情况可添加 `max-width` 到 `publc/index.html` 的 `body` 中，这样即使在PC端浏览，效果也是极好的。  
+* `bootstrap-reboot.css` 中将`line-height` 设为 `1.5`；  
+* 在多行文本浏览时，可以提供较好的用户体验；  
+* 缺点是块级文本的高度如果不是常量，那么会有所变化，像素强迫症可以视情况将值设为 `1` 。
 
 ## Project setup
 ```
