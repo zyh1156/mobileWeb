@@ -32,4 +32,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 [ptv]: https://github.com/evrone/postcss-px-to-viewport "px-to-view"  
-[xd]: ./read-develop "开发心得"
+[xd]: ./read-develop.md "开发心得"
