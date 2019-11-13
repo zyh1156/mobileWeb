@@ -1,6 +1,8 @@
   
 # 开发心得 
 
+## 插件相关
+
 > 使用 `@Vue/cli` 作为基础开发框架  
 >> 使用 `Vue-router` 作为路由管理  
 >> 使用 `Vuex` 管理全局数据  
@@ -18,7 +20,7 @@
 > ![artifact][artifactIco] logo偷偷用了 [Artifact][artifactWeb] 官网的ico（未授权）  
 >> ~~这是个好游戏，~~ 只可惜生不逢时
 
-***
+## 备注
 
 - 在[vue.congfig.js][config] 中配置设计稿宽度。  
 + 为了适应各种复杂的情况 `pubilc/index.html` 的 `viewport` 标签已经拉满了，它们分别是：
@@ -32,6 +34,7 @@
 * `bootstrap-reboot.css` 中将 `line-height` 设为 `1.5` ；  
 * 在多行文本浏览时，可以提供较好的用户体验；缺点是块级文本的高度如果不是常量，那么会有所变化，像素强迫症可以视情况将值设为 `1` 。
 
+***
 
 ## 请记住
 
