@@ -1,7 +1,7 @@
 module.exports = {
     lintOnSave: false,
     runtimeCompiler: true,
-    publicPath: "./",
+    publicPath: "./",//打包路径
     css: {
         loaderOptions: {
             postcss: {
