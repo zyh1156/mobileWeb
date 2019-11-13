@@ -13,7 +13,7 @@ const router = new VueRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  document.title =title + " &raquo; 为什么坚持，想一想当初";
+  document.title ="张永铧 &raquo; 为什么坚持，想一想当初";
   next();
 })
 export default router
