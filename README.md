@@ -3,6 +3,9 @@
 
 通过 [px-to-viewport][ptv] 的方式实现移动端适配
 
+~~把 [vue.config.js][config] 里 css 的配置删掉和原来也没什么区别~~  
+~~以下是@vue/cli 自带文档 <(^_^)>~~
+
 ## Project setup
 ```
 npm install
@@ -32,4 +35,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 [ptv]: https://github.com/evrone/postcss-px-to-viewport "px-to-view"  
-[xd]: ./read-develop.md "开发心得"
+[xd]: ./read-develop.md "开发心得"  
+[config]: ./vue.config.js "vue.config"
