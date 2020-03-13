@@ -6,7 +6,6 @@
 
 <script>
 export default {
-  name: "app",
   data() {
     return {};
   },
@@ -18,4 +17,8 @@ export default {
 </script>
 
 <style lang="scss">
+#app {
+  font: 24px/1 Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "WenQuanYi Micro Hei", sans-serif;
+}
 </style>
